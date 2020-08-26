@@ -1,0 +1,15 @@
+.logo {
+  margin-right: 0.5em;
+}
+
+button.navbar-burger {
+  background-color: transparent;
+  border: none;
+}
+
+@media screen and (min-width: 769px) {
+  .navbar {
+    max-width: 75vw;
+    margin: 0 auto;
+  }
+}

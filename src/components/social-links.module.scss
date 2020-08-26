@@ -1,0 +1,31 @@
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.social-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.social-list-item {
+  padding: 0.25em;
+}
+
+.social-link {
+  color: inherit;
+  transition: color 200ms ease-in-out;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: #3273dc;
+}
+
+.social-icon {
+  height: 35px;
+}

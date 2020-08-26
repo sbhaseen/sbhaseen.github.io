@@ -1,2 +1,3 @@
-# sbhaseen.github.io
-Profile and blog
+# blog-migration-gatsby
+
+A Gatsby based blog.

@@ -1,0 +1,53 @@
+.hero {
+  position: relative;
+}
+
+.hero-body {
+  color: white;
+}
+
+.intro-container {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5em;
+  z-index: 10;
+}
+
+.intro-image {
+  width: 100%;
+  min-width: 200px;
+  max-width: 300px;
+  background-color: grey;
+  border-radius: 50%;
+  border: 0.5em solid white;
+}
+
+.intro-content {
+  padding: 1.5em;
+  border-radius: 10px;
+  background: linear-gradient(
+    45deg,
+    rgba(175, 208, 223, 0.25),
+    rgba(41, 41, 41, 0.25),
+    rgba(175, 208, 223, 0.25)
+  );
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 769px) {
+  .intro-container {
+    max-width: 75vw;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: row;
+  }
+
+  .intro-content {
+    max-width: 60ch;
+    margin: 0 auto;
+    font-size: 1.5rem;
+  }
+}

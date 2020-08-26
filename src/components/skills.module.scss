@@ -1,0 +1,33 @@
+.magnify-box {
+  position: relative;
+  transition-property: transform;
+  transform-origin: center center;
+  transition-duration: 300ms;
+}
+
+.magnify-box:hover,
+.magnify-box:focus {
+  transform: scale(1.05);
+}
+
+.spec-highlight {
+  --clr: rgb(72, 199, 116);
+
+  border: 2px solid var(--clr);
+
+  transition-property: box-shadow;
+  transition-duration: 300ms;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0 0.5em 1em -0.125em var(--clr), 0 0px 0 1px var(--clr);
+  }
+
+  &.yellow {
+    --clr: rgb(255, 221, 87);
+  }
+
+  &.blue {
+    --clr: rgb(50, 115, 220);
+  }
+}

@@ -1,0 +1,15 @@
+.blog-main {
+  min-height: 80vh;
+}
+
+.page-nav-container {
+  position: sticky;
+  top: 100%;
+}
+
+@media screen and (min-width: 769px) {
+  .pagination-control {
+    max-width: 65vw;
+    margin: 0 auto;
+  }
+}
