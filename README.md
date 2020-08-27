@@ -33,6 +33,24 @@ A [Gatsby](https://www.gatsbyjs.com/) powered blog based on the basic setup of [
 
     GraphQL: `http://localhost:8000/___graphql`
 
+## Configuration
+
+1.  **Site Metadata**
+
+    Important site medata such as title, description, author is configured in `gatsby-config.js`
+
+    ```js
+    siteMetadata: {
+      title: `Site Title`,
+      description: `A basic description.`,
+      author: `An Author`,
+    },
+    ```
+
+2.  **Plugins**
+
+    Plugins must also be configured in `gatsby-config.js` on a per use basis. See [Gatsby Config](https://www.gatsbyjs.com/docs/gatsby-config/) for more details.
+
 ## Styles
 
 1. **Basic styles.**
@@ -64,8 +82,6 @@ A [Gatsby](https://www.gatsbyjs.com/) powered blog based on the basic setup of [
    ```
 
    Based on the recommendation for "Custom Initialization" in the documentation, the best approach for React is to select any `pre code` elements and then apply the `highlightBlock` method. This is initialized (once) by using React's `useEffect` hook for the specific functional component (`blog-post.js`).
-
-   E.g.:
 
    ```js
    useEffect(() => {
