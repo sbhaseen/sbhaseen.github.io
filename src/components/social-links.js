@@ -25,7 +25,7 @@ export default function SocialLinks({ showMessage = false }) {
             </svg>
           </a>
         </li>
-        <li li className={socialLinksStyle.socialListItem}>
+        <li className={socialLinksStyle.socialListItem}>
           <a
             className={socialLinksStyle.socialLink}
             href="https://www.github.com/sbhaseen"

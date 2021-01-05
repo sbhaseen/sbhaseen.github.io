@@ -21,8 +21,9 @@ export default function Intro() {
               Web Developer | Technology Consultant
             </h2>
             <p>
-              I'm a full stack web developer and open source advocate. I enjoy
-              designing and crafting beautiful and optimized websites with the
+              I'm a web developer and open source advocate. I enjoy designing
+              beautiful and optimized websites. I can work full stack with
+              JavaScript/Node.js and Python but prefer the font end and the
               Jamstack. I strive for clean, efficient and well documented code.
             </p>
           </div>

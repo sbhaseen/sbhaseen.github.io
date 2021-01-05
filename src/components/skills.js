@@ -30,7 +30,6 @@ export default function Skills() {
               <div className="content">
                 <ul>
                   <li>TypeScript</li>
-                  <li>Java</li>
                   <li>C#</li>
                 </ul>
               </div>
