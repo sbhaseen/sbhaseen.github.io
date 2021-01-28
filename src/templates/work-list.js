@@ -7,7 +7,7 @@ import Layout from "../components/layout"
 import PostLink from "../components/post-link"
 import listStyles from "./list.module.scss"
 
-export default function BlogList({ data, pageContext }) {
+export default function WorkList({ data, pageContext }) {
   const posts = data.allMarkdownRemark.edges
 
   const postData = posts.map(({ node }) => (
@@ -23,10 +23,10 @@ export default function BlogList({ data, pageContext }) {
 
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Work" />
       <section className={"section has-text-centered " + listStyles.blogMain}>
         <div className="container ">
-          <h1 className="title">Blog</h1>
+          <h1 className="title">Work</h1>
           {postData}
         </div>
         {numPages > 1 ? (
@@ -39,7 +39,7 @@ export default function BlogList({ data, pageContext }) {
               aria-label="pagination"
             >
               {!isFirst && (
-                <Link className="pagination-previous" to={`/blog/${prevPage}`}>
+                <Link className="pagination-previous" to={`/work/${prevPage}`}>
                   ← Previous Page
                 </Link>
               )}
@@ -48,7 +48,7 @@ export default function BlogList({ data, pageContext }) {
                   <li key={`pagination-number${i + 1}`}>
                     <Link
                       className="pagination-link"
-                      to={`/blog/${i === 0 ? "" : i + 1}`}
+                      to={`/work/${i === 0 ? "" : i + 1}`}
                     >
                       {i + 1}{" "}
                     </Link>
@@ -57,7 +57,7 @@ export default function BlogList({ data, pageContext }) {
               </ul>
 
               {!isLast && (
-                <Link className="pagination-next" to={`/blog/${nextPage}`}>
+                <Link className="pagination-next" to={`/work/${nextPage}`}>
                   Next Page →
                 </Link>
               )}
@@ -69,10 +69,10 @@ export default function BlogList({ data, pageContext }) {
   )
 }
 
-export const blogListQuery = graphql`
-  query blogListQuery($skip: Int!, $limit: Int!) {
+export const workListQuery = graphql`
+  query workListQuery($skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      filter: { fields: { collection: { eq: "blog" } } }
+      filter: { fields: { collection: { eq: "work" } } }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: $limit
       skip: $skip

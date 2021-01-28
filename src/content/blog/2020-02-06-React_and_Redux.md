@@ -372,4 +372,4 @@ I performed minimal testing becuase I did not want to stray into implementation 
 
 The finished app main page:
 
-![React app main view](../images/posts/ReactRedux-MainView.png)
+![React app main view](../../images/blog/ReactRedux-MainView.png)

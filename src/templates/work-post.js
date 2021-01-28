@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import hljs from "highlight.js"
 import "./post.scss"
 
-export default function BlogPost({ data }) {
+export default function WorkPost({ data }) {
   const post = data.markdownRemark
 
   useEffect(() => {
@@ -49,8 +49,8 @@ export default function BlogPost({ data }) {
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
 
-        <Link className="button is-link" to="/blog">
-          Back To Blog
+        <Link className="button is-link" to="/work">
+          Back To Work
         </Link>
       </section>
     </Layout>

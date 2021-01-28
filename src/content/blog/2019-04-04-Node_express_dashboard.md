@@ -45,15 +45,11 @@ In terms of page layout, the toggle required that two divs be made inherent to a
 <!-- HTML Wrapper Layouts -->
 <div class="d-flex" id="wrapper">
   <!-- Sidebar -->
-  <div class="bg-light border-right sidebar" id="sidebar-wrapper">
-    ...
-  </div>
+  <div class="bg-light border-right sidebar" id="sidebar-wrapper">...</div>
   <!-- /#sidebar-wrapper -->
 
   <!-- Page Content -->
-  <div id="page-content-wrapper">
-    ...
-  </div>
+  <div id="page-content-wrapper">...</div>
   <!-- /#page-content-wrapper -->
 </div>
 <!-- /#wrapper -->
@@ -169,4 +165,4 @@ The dashboard is designed with data visualization in mind and displays the main 
 Update: This project was formely hosted on Heroku, but is now archieved for reference code only.
 
 A screenshot the dashboard home page:
-![home page view](../images/posts/express-dashboard-screen.png)
+![home page view](../../images/blog/express-dashboard-screen.png)

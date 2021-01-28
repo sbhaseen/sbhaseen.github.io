@@ -57,6 +57,9 @@ export default function TopNav() {
             <Link to="/blog" className="navbar-item">
               Blog
             </Link>
+            <Link to="/work" className="navbar-item">
+              Work
+            </Link>
           </div>
         </div>
       </nav>

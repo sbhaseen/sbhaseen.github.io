@@ -17,4 +17,4 @@ To make things a bit easier and not have to worry about configurations, the fina
 Update: This project was formely hosted on Heroku, but is now archieved for reference code only.
 
 Here's a screenshot:  
-![web app screenshot](../images/posts/django_app_demo_screen.png)
+![web app screenshot](../../images/blog/django_app_demo_screen.png)

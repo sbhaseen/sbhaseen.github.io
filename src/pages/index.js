@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Intro from "../components/intro"
 import Skills from "../components/skills"
 import BlogHighlights from "../components/blog-highlights"
+import WorkHighlights from "../components/work-highlights"
 
 export default function IndexPage() {
   return (
@@ -13,6 +14,7 @@ export default function IndexPage() {
       <Intro />
       <Skills />
       <BlogHighlights />
+      <WorkHighlights />
     </Layout>
   )
 }

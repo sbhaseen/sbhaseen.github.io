@@ -182,4 +182,4 @@ And with that, the site now has basic text search!
 Update: This project was formely hosted on Heroku, but is now archieved for reference code only.
 
 A screenshot for fun:
-![app screenshot](../images/posts/django_app_search_01.png)
+![app screenshot](../../images/blog/django_app_search_01.png)

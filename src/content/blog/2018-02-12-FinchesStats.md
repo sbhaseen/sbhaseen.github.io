@@ -66,7 +66,7 @@ plt.xlabel('Year')
 plt.ylabel('Beak depth (mm)');
 ```
 
-![finch beak depth](../images/posts/FinchesStats01.png)
+![finch beak depth](../images/blog/FinchesStats01.png)
 
 ### Functions to help the analysis
 
@@ -146,7 +146,7 @@ plt.ylabel('ECDF')
 plt.legend(('1975', '2012'), loc='lower right');
 ```
 
-![Emperical Cumulative Distribution Fuction plot](../images/posts/FinchesStats02.png)
+![Emperical Cumulative Distribution Fuction plot](../images/blog/FinchesStats02.png)
 
 ### Parameter estimation of the mean difference between 1975 and 2012 data.
 
@@ -240,7 +240,7 @@ plt.ylabel('Beak depth (mm)')
 plt.legend(('1975', '2012'), loc='upper left');
 ```
 
-![Beak depth vs length](../images/posts/FinchesStats03.png)
+![Beak depth vs length](../images/blog/FinchesStats03.png)
 
 From the plot, we see that beaks got deeper but not much longer.
 
@@ -306,7 +306,7 @@ for i in range(100):
              linewidth=0.5, alpha=0.2, color='red')
 ```
 
-![linear regression of beak depth vs length](../images/posts/FinchesStats04.png)
+![linear regression of beak depth vs length](../images/blog/FinchesStats04.png)
 
 ## Exploring the beak length and depth ratio
 

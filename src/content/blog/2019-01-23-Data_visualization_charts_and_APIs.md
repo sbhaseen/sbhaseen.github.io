@@ -183,4 +183,4 @@ With those updates in place, the home page now shows a chart like in the screens
 Update: This project was formely hosted on Heroku, but is now archieved for reference code only.
 
 A screenshot of the improved home page:
-![home page screenshot](../images/posts/Django_chartjs_01.png)
+![home page screenshot](../images/blog/Django_chartjs_01.png)

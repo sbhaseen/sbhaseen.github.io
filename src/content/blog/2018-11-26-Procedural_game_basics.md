@@ -86,7 +86,7 @@ public class buildCity : MonoBehaviour
 
 This yields the following:
 
-![city grid setup](../images/posts/ProcCity01.png)
+![city grid setup](../../images/blog/ProcCity01.png)
 
 ## Adding Random Noise
 
@@ -156,7 +156,7 @@ public class cityGridNoise : MonoBehaviour
 ```
 
 The city should now display with a zoning-like effect:
-![zoning effect](../images/posts/ProcCity02.png)
+![zoning effect](../../images/blog/ProcCity02.png)
 
 ## Adding roads
 
@@ -164,7 +164,7 @@ The next challenge was adding roads. I spent a lot of time thinking about this. 
 
 How not to make roads:
 
-![bad road initialization](../images/posts/ProcCity03.png)
+![bad road initialization](../../images/blog/ProcCity03.png)
 
 Upon looking at my grid, and Google Maps, I realized I needed a grid within a grid: Gridception!
 So the easiest way I could think of was to generate the Perlin Noise in a 2D array then modify that array in certain rows and columns to have indicators for roads.
@@ -276,7 +276,7 @@ namespace csArrayManip
 
 Here is the output of the console application:
 
-![grid console output](../images/posts/ProcCity04.png)]
+![grid console output](../../images/blog/ProcCity04.png)]
 
 Getting back to Unity, the previous array manipulation was implemented purely with integers because it is far easier to quickly manipulate than strings. Instead of dashes, pipes and pluses, negative numbers outside the range of the Perlin Noise result function were used.
 
@@ -425,7 +425,7 @@ public class cityGridNoiseRoads : MonoBehaviour
 
 This script now generates this:
 
-![final zoned grid](../images/posts/ProcCity05.png)
+![final zoned grid](../../images/blog/ProcCity05.png)
 
 A debug log was added for reference. Note the correlation between the Z-axis (blue arrow) and X-axis (red arrow).
 
