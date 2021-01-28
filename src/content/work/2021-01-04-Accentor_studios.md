@@ -9,7 +9,7 @@ featuredImage: "../../images/work/Accentor_Studios_Home.png"
 
 ## Accentor Studios: A digital art and 3D animation studio.
 
-#### [Visit Accentor Studios](https://accentorstudios.com)
+#### [Visit Accentor Studios](https://www.accentorstudios.com/)
 
 A business website to advertise the services and expertise of the customer. The site was developed using [Gastby](https://www.gatsbyjs.com/), a static site generator and framework built on top of React. Functional components and hooks were used across the project.
 
