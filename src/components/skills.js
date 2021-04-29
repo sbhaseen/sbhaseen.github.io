@@ -15,7 +15,7 @@ export default function Skills() {
               <p className="subtitle">Most Used (Proficient)</p>
               <div className="content">
                 <ul>
-                  <li>JavaScript</li>
+                  <li>JavaScript/TypeScript</li>
                   <li>Python</li>
                 </ul>
               </div>
@@ -29,7 +29,6 @@ export default function Skills() {
               <p className="subtitle">Working Knowledge (Familar)</p>
               <div className="content">
                 <ul>
-                  <li>TypeScript</li>
                   <li>C#</li>
                 </ul>
               </div>
