@@ -25,7 +25,7 @@ export default function BlogList({ data, pageContext }) {
     <Layout>
       <SEO title="Blog" />
       <section className={"section has-text-centered " + listStyles.blogMain}>
-        <div className="container ">
+        <div className="container">
           <h1 className="title">Blog</h1>
           {postData}
         </div>

@@ -1,7 +1,34 @@
-import React from "react"
+import React, { useEffect } from "react"
 import skillsStyles from "./skills.module.scss"
 
 export default function Skills() {
+  useEffect(() => {
+    const elementSelector = document.querySelectorAll("article")
+
+    const callback = (entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("zoomIn")
+          observer.unobserve(entry.target)
+        }
+      })
+    }
+
+    const options = {
+      threshold: 0,
+    }
+
+    const myObserver = new IntersectionObserver(callback, options)
+
+    elementSelector.forEach(element => {
+      myObserver.observe(element)
+    })
+
+    return () => {
+      myObserver.disconnect()
+    }
+  }, [])
+
   return (
     <section className="section">
       <div className="container">

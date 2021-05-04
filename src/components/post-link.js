@@ -4,7 +4,7 @@ import postLinkStyles from "./post-link.module.scss"
 
 export default function PostLink({ post }) {
   return (
-    <div className={postLinkStyles.linkContainer}>
+    <div className={`mb-6 ${postLinkStyles.linkContainer}`}>
       <Link className={postLinkStyles.linkTitle} to={post.fields.slug}>
         {post.frontmatter.title}
       </Link>

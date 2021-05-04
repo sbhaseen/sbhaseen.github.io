@@ -10,12 +10,12 @@ export default function Intro() {
       <Image />
       <div className={`hero-body ${introStyles.heroBody}`}>
         <div className={introStyles.introContainer}>
-          <div className="">
+          <div className="zoomIn">
             <img className={introStyles.introImage} src={profilePic} alt="" />
             <SocialLinks />
           </div>
 
-          <div className={introStyles.introContent}>
+          <div className={`${introStyles.introContent} fadeInRight`}>
             <h1 className="title has-text-white">Shan Bhaseen</h1>
             <h2 className="subtitle has-text-white">
               Web Developer | Technology Consultant
