@@ -10,21 +10,25 @@ export default function Intro() {
       <Image />
       <div className={`hero-body ${introStyles.heroBody}`}>
         <div className={introStyles.introContainer}>
-          <div className="zoomIn">
-            <img className={introStyles.introImage} src={profilePic} alt="" />
+          <div>
+            <img
+              className={`${introStyles.introImage} zoomIn`}
+              src={profilePic}
+              alt=""
+            />
             <SocialLinks />
           </div>
 
-          <div className={`${introStyles.introContent} fadeInRight`}>
+          <div className={`${introStyles.introContent} fadeInDown`}>
             <h1 className="title has-text-white">Shan Bhaseen</h1>
             <h2 className="subtitle has-text-white">
               Web Developer | Technology Consultant
             </h2>
             <p>
-              I'm a web developer and open source advocate. I enjoy designing
-              beautiful and optimized websites. I can work full stack with
-              JavaScript/Node.js and Python but prefer the font end and the
-              Jamstack. I strive for clean, efficient and well documented code.
+              I'm a web developer and open source advocate. I enjoy working on
+              the front end and have also worked full stack. Expereinced with
+              JavaScript, TypeScript and Python. I strive for clean, efficient
+              and well documented code.
             </p>
           </div>
         </div>

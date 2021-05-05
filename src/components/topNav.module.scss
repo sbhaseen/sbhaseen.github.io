@@ -2,14 +2,13 @@
   margin-right: 0.5em;
 }
 
-@media (hover) {
-  .navbar-item > .logo {
-    transition: transform 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
-  }
+.navbar-item > .logo {
+  transition: transform 1000ms cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
 
-  .navbar-item:hover > .logo {
-    transform: rotate(360deg);
-  }
+.navbar-item:hover > .logo,
+.navbar-item:focus > .logo {
+  transform: rotate(360deg);
 }
 
 button.navbar-burger {
